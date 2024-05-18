@@ -1,5 +1,6 @@
 import 'package:e_commerce_app/core/config/page_routes_name.dart';
 import 'package:e_commerce_app/features/favorite/pages/favorite_view.dart';
+import 'package:e_commerce_app/features/register/pages/register_view.dart';
 import 'package:e_commerce_app/features/user_information/pages/user_view.dart';
 import 'package:e_commerce_app/features/layout.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +27,11 @@ class Routes {
       case PageRoutesName.home:
         return MaterialPageRoute(
           builder: (context) => const HomeView(),
+          settings: settings,
+        );
+      case PageRoutesName.registration:
+        return MaterialPageRoute(
+          builder: (context) => const RegisterView(),
           settings: settings,
         );
       case PageRoutesName.category:

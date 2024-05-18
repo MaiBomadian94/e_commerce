@@ -120,7 +120,7 @@ class _HomeViewState extends State<HomeView> {
                       height: 200,
                       viewportFraction: .97,
                       enableInfiniteScroll: false,
-                      autoPlay: true,
+                      autoPlay: false,
                       autoPlayInterval: const Duration(seconds: 3),
                       autoPlayAnimationDuration:
                           const Duration(milliseconds: 800),

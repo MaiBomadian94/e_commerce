@@ -7,22 +7,28 @@ class ApplicationThemeManager {
     useMaterial3: false,
     textTheme: const TextTheme(
       titleLarge: TextStyle(
-        fontSize: 20,
+        fontSize: 24,
         fontFamily: 'Poppins',
-        fontWeight: FontWeight.w500,
-        color: Color(0xff06004F),
+        fontWeight: FontWeight.w600,
+        color: Colors.white,
       ),
       bodyLarge: TextStyle(
+        fontSize: 20,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w600,
+        color: Colors.white,
+      ),
+      bodySmall: TextStyle(
+        fontSize: 16,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w300,
+        color: Colors.white,
+      ),
+      bodyMedium: TextStyle(
         fontSize: 18,
         fontFamily: 'Poppins',
         fontWeight: FontWeight.w500,
-        color: Color(0xff06004F),
-      ),
-      bodySmall: TextStyle(
-        fontSize: 14,
-        fontFamily: 'Poppins',
-        fontWeight: FontWeight.w400,
-        color: Color(0xff06004F),
+        color: Colors.white,
       ),
     ),
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
